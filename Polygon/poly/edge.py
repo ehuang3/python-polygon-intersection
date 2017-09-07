@@ -7,8 +7,8 @@
     reference (which would be 'None' in degenerate cases).
 """
 
-from poly.point import Point
-from poly.util import value, intersect
+from .point import Point
+from .util import value, intersect
 
 class Edge:
     """Represents an edge in Cartesian space."""

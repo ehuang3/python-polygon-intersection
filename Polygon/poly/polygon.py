@@ -10,9 +10,9 @@
     final point, back to the first point.
 """
 
-from poly.point import Point
-from poly.edge import Edge
-from poly.util import computeAngleSign
+from .point import Point
+from .edge import Edge
+from .util import computeAngleSign
 
 class Polygon:
     """Represents polygon of points in Cartesian space."""
